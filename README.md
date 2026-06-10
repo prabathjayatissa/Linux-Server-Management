@@ -1,100 +1,36 @@
-# Linux (Ubuntu) Server Command Sheet
+# 🐧 Linux Server Management
 
-## Disk & Storage
-```bash
-df -h
-du -sh *
-lsblk
-mount
-fdisk -l
-```
+A practical and lightweight toolkit for managing Linux servers efficiently. This repository contains scripts, configuration examples, and guides to help system administrators and developers streamline server setup, monitoring, maintenance, and security.
 
-## Memory & CPU
-```bash
-free -h
-top
-htop
-nproc
-lscpu
-```
+---
 
-## System Performance
-```bash
-uptime
-vmstat 1
-iostat -xz 1
-```
+## 📌 Overview
 
-## Network & Ports
-```bash
-ip a
-ip r
-ss -tulnp
-netstat -tulnp
-ping google.com
-curl -I http://localhost:8080
-```
+Managing Linux servers can become complex as infrastructure grows. This project aims to simplify common administrative tasks such as:
 
-## Firewall (UFW)
-```bash
-ufw status
-ufw allow 443/tcp
-ufw allow 22/tcp
-ufw enable
-ufw deny 8080
-```
+- Server setup and configuration
+- User and permission management
+- Package installation and updates
+- Monitoring system health and performance
+- Security hardening
+- Backup automation
 
-## Services (systemd)
-```bash
-systemctl status nginx
-systemctl start nginx
-systemctl stop nginx
-systemctl restart nginx
-systemctl enable nginx
-systemctl list-units --type=service
-```
+Whether you're managing a single VPS or multiple production servers, this repository provides reusable tools and best practices.
 
-## Logs & Debugging
-```bash
-journalctl -xe
-journalctl -u nginx
-tail -f /var/log/syslog
-dmesg | tail
-```
+---
 
-## Users & Permissions
-```bash
-whoami
-id
-who
-chmod 755 file.sh
-chown user:user file.txt
-```
+## ⚙️ Features
 
-## Docker
-```bash
-docker ps
-docker ps -a
-docker logs container_name
-docker exec -it container_name bash
-docker images
-docker network ls
-docker-compose up -d
-docker-compose down
-```
+- 🖥️ Automated server setup scripts
+- 👤 User management utilities
+- 🔐 Basic security hardening (SSH, firewall rules, etc.)
+- 📦 Package installation helpers
+- 📊 System monitoring commands and scripts
+- 💾 Backup and restore scripts
+- 📁 Log management utilities
 
-## Security & Ports Audit
-```bash
-ss -tulnp
-lsof -i -P -n
-nmap localhost
-```
+---
 
-## Updates & Packages
-```bash
-apt update
-apt upgrade
-apt install package_name
-dpkg -l
-```
 
+
+## 📂 Repository Structure
