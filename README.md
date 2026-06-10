@@ -34,3 +34,22 @@ Whether you're managing a single VPS or multiple production servers, this reposi
 
 
 ## 📂 Repository Structure
+linux-server-management/
+│
+├── scripts/
+│ ├── setup.sh
+│ ├── backup.sh
+│ ├── monitor.sh
+│
+├── configs/
+│ ├── sshd_config
+│ ├── nginx.conf
+│
+├── docs/
+│ ├── installation.md
+│ ├── security.md
+│
+├── logs/
+│
+├── README.md
+└── LICENSE
