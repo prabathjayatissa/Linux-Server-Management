@@ -1,7 +1,4 @@
-# Linux-Server-Management
-
-
-# Linux (Ubuntu) Server Command Cheat Sheet
+# Linux (Ubuntu) Server Command Sheet
 
 ## Disk & Storage
 ```bash
