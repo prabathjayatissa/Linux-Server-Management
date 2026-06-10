@@ -30,26 +30,30 @@ Whether you're managing a single VPS or multiple production servers, this reposi
 - 📁 Log management utilities
 
 ---
-
-
-
 ## 📂 Repository Structure
-linux-server-management/
-│
-├── scripts/
-│ ├── setup.sh
-│ ├── backup.sh
-│ ├── monitor.sh
-│
-├── configs/
-│ ├── sshd_config
-│ ├── nginx.conf
-│
-├── docs/
-│ ├── installation.md
-│ ├── security.md
-│
-├── logs/
-│
-├── README.md
-└── LICENSE
+
+
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/linux-server-management.git
+cd linux-server-management
+```
+
+### Make scripts executable
+
+```bash
+chmod +x scripts/*.sh
+```
+### Run a script
+
+```bash
+./scripts/setup.sh
+```
+
+
