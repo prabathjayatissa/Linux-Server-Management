@@ -56,4 +56,13 @@ chmod +x scripts/*.sh
 ./scripts/setup.sh
 ```
 
+```bash
+sudo apt install python3-psutil   # Debian/Ubuntu
+# OR
+pip install psutil
 
+sudo python3 server_manager.py
+
+0 * * * * /usr/bin/python3 /path/to/server_manager.py
+
+```
